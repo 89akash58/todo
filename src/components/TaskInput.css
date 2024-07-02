@@ -1,0 +1,29 @@
+.container {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.inputtext {
+  width: 26vw;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+}
+.add {
+  color: white;
+  background-color: rgb(68, 253, 68);
+  border: none;
+  width: 10vw;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+  &:hover {
+    background-color: transparent;
+    color: rgb(38, 255, 34);
+    border: 2px solid rgb(47, 255, 47);
+  }
+}
